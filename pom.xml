@@ -197,10 +197,7 @@
 		    <artifactId>jfreechart</artifactId>
 		    <version>1.0.9</version>
 		</dependency>
-	</dependencies>	
-	<pluginGroups>
-        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
-    </pluginGroups>
+	</dependencies>
     <profiles>
         <profile>
             <id>sonar</id>

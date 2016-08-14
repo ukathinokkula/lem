@@ -37,6 +37,7 @@ public class AccountInfoController {
 
 	@RequestMapping(value = "/openUpdateAccountInfo")
 	public ModelAndView openUpdateAccountInfoPage() throws Exception {
+		System.out.println("AAAAAAAAAAAAAAAAAAAAA");
 		Authentication auth = SecurityContextHolder.getContext()
 				.getAuthentication();
 		ModelAndView model = new ModelAndView("accountInfo/updateAccountInfo");
@@ -47,6 +48,7 @@ public class AccountInfoController {
 
 	@RequestMapping(value = "/viewAccountInfo")
 	public ModelAndView viewAccountInfo() throws Exception {
+		System.out.println("AAAAAAAAAAAAAAAAAAAAA");
 		Authentication auth = SecurityContextHolder.getContext()
 				.getAuthentication();
 		ModelAndView model = new ModelAndView("accountInfo/viewAccountInfo");
@@ -78,6 +80,7 @@ public class AccountInfoController {
 
 	@RequestMapping(value = "/openResetPasswordPage")
 	public ModelAndView openResetPasswordPage() throws Exception {
+		System.out.println("AAAAAAAAAAAAAAAAAAAAA");
 		Authentication auth = SecurityContextHolder.getContext()
 				.getAuthentication();
 		ModelAndView model = new ModelAndView("accountInfo/resetPassword");

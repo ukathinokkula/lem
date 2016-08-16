@@ -105,9 +105,4 @@ public class HomeController {
 	public ModelAndView openForgotPasswordPage() throws Exception {
 		return new ModelAndView("forgotPasswordPage");
 	}
-	
-	@RequestMapping(value = "/forgotPassword1")
-	public ModelAndView openForgotPasswordPage1() throws Exception {
-		return new ModelAndView("forgotPasswordPage");
-	}
 }

@@ -39,7 +39,6 @@ public class UserDAOImpl implements UserDAO {
 	@Override
 	public void addUser(User user) {
 		getCurrentSession().save(user);
-		getCurrentSession().save(user);
 
 	}
 

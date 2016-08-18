@@ -4413,7 +4413,7 @@ $.extend(Datepicker.prototype, {
 		try {
 			date = this.parseDate(dateFormat, dates, settings) || defaultDate;
 		} catch (event) {
-			dates = (noDefault ? "" : dates);
+			//dates = (noDefault ? "" : dates);
 		}
 		inst.selectedDay = date.getDate();
 		inst.drawMonth = inst.selectedMonth = date.getMonth();
@@ -8123,7 +8123,7 @@ $.extend( $.effects, {
 		try {
 			active.id;
 		} catch( e ) {
-			active = document.body;
+			//active = document.body;
 		}
 
 		element.wrap( wrapper );

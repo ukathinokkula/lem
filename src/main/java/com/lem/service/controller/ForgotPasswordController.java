@@ -96,9 +96,20 @@ public class ForgotPasswordController {
 	}
 
 	public StringBuffer constructURL(HttpServletRequest request) {
-		return new StringBuffer().append("http://")
+		StringBuffer sb1 = new StringBuffer().append("http://")
 				.append(request.getServerName()).append(":")
 				.append(request.getServerPort())
 				.append(request.getContextPath());
+				
+		StringBuffer sb2 = new StringBuffer().append("http://")
+		.append(request.getServerName()).append(":")
+		.append(request.getServerPort())
+		.append(request.getContextPath());
+		
+		StringBuffer sb3 = new StringBuffer().append("http://")
+				.append(request.getServerName()).append(":")
+				.append(request.getServerPort())
+				.append(request.getContextPath());
+		return sb3;
 	}
 }

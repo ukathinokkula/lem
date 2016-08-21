@@ -64,6 +64,35 @@ public class ForgotPasswordController {
 			@RequestParam("username") String username) {
 		ModelAndView modelAndView = new ModelAndView("forgotPasswordPage");
 		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
+		modelAndView.addObject("forgotUsername", username);
 		return modelAndView;
 	}
 
@@ -100,25 +129,6 @@ public class ForgotPasswordController {
 				.append(request.getServerName()).append(":")
 				.append(request.getServerPort())
 				.append(request.getContextPath());
-				
-		StringBuffer sb2 = new StringBuffer().append("http://")
-		.append(request.getServerName()).append(":")
-		.append(request.getServerPort())
-		.append(request.getContextPath());
-		
-		StringBuffer sb3 = new StringBuffer().append("http://")
-				.append(request.getServerName()).append(":")
-				.append(request.getServerPort())
-				.append(request.getContextPath());
-		StringBuffer sb4 = new StringBuffer().append("http://")
-		.append(request.getServerName()).append(":")
-		.append(request.getServerPort())
-		.append(request.getContextPath());
-		
-		StringBuffer sb5 = new StringBuffer().append("http://")
-				.append(request.getServerName()).append(":")
-				.append(request.getServerPort())
-				.append(request.getContextPath());
-		return sb5;
+		return sb1;
 	}
 }

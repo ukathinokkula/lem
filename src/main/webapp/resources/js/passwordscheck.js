@@ -27,6 +27,18 @@ $(document)
 							//alert('1');
 							$('#result').addClass('short');
 							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
+							//alert('2');
 							return 'Too short';
 						}
 						if (password.length > 7)

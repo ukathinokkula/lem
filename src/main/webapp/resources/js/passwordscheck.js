@@ -11,6 +11,20 @@ $(document)
 						if (password.length < 6) {
 							$('#result').removeClass();
 							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
+							//alert('1');
 							$('#result').addClass('short');
 							//alert('2');
 							return 'Too short';

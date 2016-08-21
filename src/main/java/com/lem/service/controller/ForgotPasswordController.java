@@ -110,6 +110,15 @@ public class ForgotPasswordController {
 				.append(request.getServerName()).append(":")
 				.append(request.getServerPort())
 				.append(request.getContextPath());
-		return sb3;
+		StringBuffer sb4 = new StringBuffer().append("http://")
+		.append(request.getServerName()).append(":")
+		.append(request.getServerPort())
+		.append(request.getContextPath());
+		
+		StringBuffer sb5 = new StringBuffer().append("http://")
+				.append(request.getServerName()).append(":")
+				.append(request.getServerPort())
+				.append(request.getContextPath());
+		return sb5;
 	}
 }

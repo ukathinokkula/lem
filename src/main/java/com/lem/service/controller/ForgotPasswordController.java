@@ -53,6 +53,8 @@ public class ForgotPasswordController {
 						bindingResultForgot);
 				res.setStatus("FAIL");
 				res.setResult(bindingResultForgot.getAllErrors());
+				/*emailConfigurer.sendEmail(user.getUsername(),
+						user.getUsername(), resetPasswordURL);*/
 			}
 
 		}
@@ -64,6 +66,8 @@ public class ForgotPasswordController {
 			@RequestParam("username") String username) {
 		ModelAndView modelAndView = new ModelAndView("forgotPasswordPage");
 		modelAndView.addObject("forgotUsername", username);
+		/*emailConfigurer.sendEmail(user.getUsername(),
+						user.getUsername(), resetPasswordURL);*/
 		return modelAndView;
 	}
 

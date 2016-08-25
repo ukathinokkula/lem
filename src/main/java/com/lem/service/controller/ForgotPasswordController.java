@@ -64,35 +64,6 @@ public class ForgotPasswordController {
 			@RequestParam("username") String username) {
 		ModelAndView modelAndView = new ModelAndView("forgotPasswordPage");
 		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
-		modelAndView.addObject("forgotUsername", username);
 		return modelAndView;
 	}
 

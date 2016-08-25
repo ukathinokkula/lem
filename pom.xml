@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.lem</groupId>
 	<artifactId>LEM</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.5-SNAPSHOT</version>
 	<packaging>war</packaging>
 	
 	<properties>
@@ -207,7 +207,7 @@
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                  http://192.168.99.100:9000
+                  http://10.60.16.81:9000
                 </sonar.host.url>
             </properties>
         </profile>

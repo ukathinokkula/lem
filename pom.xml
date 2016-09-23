@@ -199,7 +199,7 @@
 		</dependency>
 	</dependencies>
     <profiles>
-        <profile>
+		<profile>
             <id>sonar</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -211,5 +211,23 @@
                 </sonar.host.url>
             </properties>
         </profile>
+        <profile> 
+			<id>release</id> <!-- Needs to be activated only when we are performing artifact releases -->
+			<distributionManagement>
+				<repository>
+					<id>internalMavenReleaseRepository</id>
+					<name>Internal Maven Release Repository</name>
+					<url>${releases.distribution.url}</url>
+				</repository>
+			</distributionManagement>
+		</profile>
      </profiles>
+	 <distributionManagement>
+        <snapshotRepository>
+            <id>internalMavenSnapshotRepository</id>
+            <name>Internal Snapshots Repository</name>
+            <url>${snapshots.distribution.url}</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

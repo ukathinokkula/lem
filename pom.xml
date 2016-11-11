@@ -199,10 +199,10 @@
 		</dependency>
 	</dependencies>
     <profiles>
-		<profile>
+	<profile>
             <id>sonar</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
@@ -230,4 +230,4 @@
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
-</project>
+</project>	

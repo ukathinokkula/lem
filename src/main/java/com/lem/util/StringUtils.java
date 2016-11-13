@@ -8,7 +8,7 @@ package com.lem.util;
 public class StringUtils {
 		
 	public static boolean isEmptyOrNull(String str) {
-		System.out.println("2"+str);
+		System.out.println("3"+str);
 		return str == null || str.trim().length() == 0;
 	}
 
